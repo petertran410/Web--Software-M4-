@@ -952,55 +952,75 @@
 }
 
 .section-ten .inner-wrap .inner-image {
-  width: 100%;
-  height: auto;
-  position: relative;
+  min-height: 600px;
+  max-width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  justify-content: center;
   background-size: cover;
   background-position: center;
-  text-align: center;
-}
-
-.section-ten .inner-wrap .inner-image img {
-  width: 100%;
-  height: 600px;
+  border-radius: 10px;
+  background-image: url(../images/background4.jpg);
 }
 
 .section-ten .inner-wrap .inner-image .inner-icon {
-  text-align: center;
+  position: relative;
+}
+
+.section-ten .inner-wrap .inner-image .inner-animation {
+  position: relative;
+  margin: auto;
+  width: 120px;
+  height: 120px;
+  background: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.section-ten .inner-wrap .inner-image .inner-icon::before {
-  content: "";
+.section-ten .inner-wrap .inner-image .inner-animation::before {
   position: absolute;
-  background: #fff;
-  transform: translate(-50%, -50%);
-  opacity: 0.8;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  content: "";
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 120px;
+  background: #ffffff;
+  opacity: 0.8;
+  border-radius: 50%;
   animation-duration: 1s;
   animation-name: icons;
   animation-iteration-count: infinite;
   z-index: 1;
 }
 
-.section-ten .inner-wrap .inner-image .inner-icon i{
-  font-size: 27px;
+.section-ten .inner-wrap .inner-image .inner-icon .inner-animation a {
+  line-height: 1;
+  word-break: break-word;
+  word-wrap: break-word;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+  background-color: transparent;
+  transition: color 0.6s;
+}
+
+.section-ten .inner-wrap .inner-image .inner-icon .inner-animation a:hover {
+  text-decoration: none;
+  color: #f7d9c4;
+}
+
+.section-ten .inner-wrap .inner-image .inner-icon .inner-animation a i {
+  font-size: 1.4rem;
   transition: all 0.2s;
   z-index: 2;
   padding-left: 4px;
-  position: absolute;
+  position: relative;
   color: #121212;
-  top: 50%;
-  left: 50%;
 }
 /* End Section Tenth */
