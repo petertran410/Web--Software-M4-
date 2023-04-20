@@ -820,3 +820,109 @@
   border-radius: 10px;
 }
 /* End Section Eighth */
+
+/* Section Ninth */
+.section-ninth {
+  background: #31363B;
+  padding-top: 80px;
+  padding-bottom: 110px;
+}
+
+.section-ninth .inner-wrap {
+  width: 100%;
+  height: auto;
+}
+
+.section-ninth .inner-wrap .inner-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 40px;
+}
+
+.section-ninth .inner-wrap .inner-header {
+  width: max-content;
+  height: auto;
+  color: #bbbbbb;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.section-ninth .inner-wrap .inner-sub-header {
+  width: max-content;
+  height: auto;
+  color: #fff;
+  font-size: 61px;
+  font-weight: 600;
+}
+
+.section-ninth .inner-wrap .inner-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.section-ninth .inner-wrap .inner-content .inner-item {
+  background: #fff;
+  width: calc((100% / 3) - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.section-ninth .inner-wrap .inner-content .inner-item .inner-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.section-ninth .inner-wrap .inner-content .inner-item .inner-desc {
+  width: 100%;
+  height: auto;
+  font-size: 25px;
+  line-height: 1.5;
+  font-style: italic;
+  padding-bottom: 26px;
+  margin-bottom: 16px;
+  color: #777777;
+}
+
+.section-ninth .inner-wrap .inner-content .inner-item .inner-image img {
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.section-ninth .inner-wrap .inner-content .inner-item .inner-image .inner-name {
+  color: #31363b;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.section-ninth .inner-wrap .inner-content .inner-item .inner-image .inner-type {
+  color: #777777;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section-ninth .inner-wrap .inner-content .inner-item .inner-icon {
+  font-size: 60px;
+  position: absolute;
+  width: max-content;
+  height: auto;
+  bottom: 30%;
+  right: 12%;
+}
+/* End Section Ninth */
