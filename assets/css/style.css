@@ -1041,13 +1041,17 @@
   padding-top: 96px;
   padding-bottom: 96px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.section-eleven .inner-wrap .inner-header {
+/* .section-eleven .inner-wrap .inner-header {
   padding-left: 15px;
   padding-right: 15px;
   width: 100%;
-}
+} */
 
 .section-eleven .inner-wrap .inner-header .inner-title {
   font-size: 18px;
@@ -1064,10 +1068,14 @@
 }
 
 .section-eleven .inner-wrap .inner-content {
-  margin-left: -5px;
-  margin-right: -5px;
+  margin: auto;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+}
+
+.section-eleven .inner-wrap .inner-content form {
+  width: max-content;
 }
 
 .section-eleven .inner-wrap .inner-content .form-control {
@@ -1078,5 +1086,9 @@
   border-radius: 10px;
   background: #fff;
   color: #1b2026;
+}
+
+.section-eleven .inner-wrap .inner-content .form-control:nth-child(-n + 6) {
+  width: calc(100%);
 }
 /* End Section Eleventh */

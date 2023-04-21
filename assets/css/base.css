@@ -16,7 +16,41 @@ body {
 }
 
 input {
-  padding: 0;
+  writing-mode: horizontal-tb !important;
+  /* font-style: ; */
+  /* font-variant-ligatures: ; */
+  /* font-variant-caps: ; */
+  /* font-variant-numeric: ; */
+  /* font-variant-east-asian: ; */
+  /* font-variant-alternates: ; */
+  /* font-weight: ; */
+  /* font-stretch: ; */
+  /* font-size: ; */
+  /* font-family: ; */
+  /* font-optical-sizing: ; */
+  /* font-kerning: ; */
+  /* font-feature-settings: ; */
+  /* font-variation-settings: ; */
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: field;
+  /* margin: 0em; */
+  /* padding: 0px 0px; */
+  /* border-width: 0px; */
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
 }
 
 a {
