@@ -1024,3 +1024,59 @@
   color: #121212;
 }
 /* End Section Tenth */
+
+/* Section Eleventh */
+.section-eleven {
+  padding-top: 90px;
+  padding-bottom: 120px;
+  background: #fff;
+}
+
+.section-eleven .inner-wrap {
+  background: var(--color-bg-2);
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  border-radius: 10px;
+}
+
+.section-eleven .inner-wrap .inner-header {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.section-eleven .inner-wrap .inner-header .inner-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #777777;
+  margin-bottom: 15px;
+}
+
+.section-eleven .inner-wrap .inner-header .inner-sub-title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #121212;
+  margin-bottom: 48px;
+}
+
+.section-eleven .inner-wrap .inner-content {
+  margin-left: -5px;
+  margin-right: -5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-eleven .inner-wrap .inner-content .form-control {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background: #fff;
+  color: #1b2026;
+}
+/* End Section Eleventh */
